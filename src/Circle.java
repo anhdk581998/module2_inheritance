@@ -32,7 +32,7 @@ public class Circle {
     public void setColor(String color) {
         this.color = color;
     }
-    public double Area(double R){
-        return R*R*3.14;
+    public double Area(){
+        return this.R*this.R*3.14;
     }
 }
